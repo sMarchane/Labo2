@@ -16,5 +16,15 @@ namespace Labo2
         {
             InitializeComponent();
         }
+
+        private void textBoxPrenom_TextChanged(object sender, EventArgs e)
+        {
+            textBoxPrenom.Text = String.Concat(textBoxPrenom.Text.Where(char.IsLetter));
+        }
+
+        private void textBoxNom_TextChanged(object sender, EventArgs e)
+        {
+            textBoxNom.Text = String.Concat(textBoxNom.Text.Where(char.IsLetter));
+        }
     }
 }
