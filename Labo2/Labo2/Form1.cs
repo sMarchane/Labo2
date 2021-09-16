@@ -27,5 +27,15 @@ namespace Labo2
         {
             textBoxNom.Text = String.Concat(textBoxNom.Text.Where(char.IsLetter));
         }
+
+        private void labelNomUtilisateur_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxUtilisateur_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
