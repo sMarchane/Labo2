@@ -24,6 +24,7 @@ namespace Labo2
         }
 
         private void textBoxNom_TextChanged(object sender, EventArgs e)
+            //le nom!
         {
             textBoxNom.Text = String.Concat(textBoxNom.Text.Where(char.IsLetter));
         }
